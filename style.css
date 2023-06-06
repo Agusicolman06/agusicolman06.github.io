@@ -1,0 +1,15 @@
+
+.header {
+    color: black;
+    border: 3px solid grey;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 65px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+h1 {
+    font-size: 25px;
+    
+}
