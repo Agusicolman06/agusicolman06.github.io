@@ -47,27 +47,27 @@ nav .animation{
 }
 
 a:nth-child(1) {
-    width: 100px;
+    width: 110px;
 }
 nav .start-home,a:nth-child(1):hover~.animation {
-width: 100px;
+width: 110px;
 left: 0px;
 }
 
 a:nth-child(2) {
-    width: 110px;
+    width: 120px;
 }
 nav .start-home,a:nth-child(2):hover~.animation {
-    width: 110px;
-    left: 100px;
+    width: 120px;
+    left: 108px;
  }
 
 a:nth-child(3) {
-    width: 100px;
+    width: 110px;
 }
 nav .start-home,a:nth-child(3):hover~.animation {
-    width: 100px;
-    left: 210px;
+    width: 110px;
+    left: 230px;
 }
     
 a:nth-child(4) {
@@ -75,7 +75,7 @@ a:nth-child(4) {
 }
 nav .start-home,a:nth-child(4):hover~.animation {
     width: 130px;
-    left: 310px;
+    left: 340px;
     }
 
 a:nth-child(5) {
@@ -83,5 +83,5 @@ a:nth-child(5) {
 }
 nav .start-home,a:nth-child(5):hover~.animation {
     width: 120px;
-    left: 470px;
+    left: 467px;
     }
