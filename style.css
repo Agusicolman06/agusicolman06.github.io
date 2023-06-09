@@ -25,20 +25,52 @@ body {
     border-radius: 30px;
     padding: 3px;
     margin-right: 1000px;
-    margin-left: 50px;
+    margin-left: 40px;
     text-align: center;
     font-size: 40px;
     text-decoration: none;
 }
+
 h1 {
     font-size: 30px;
     text-decoration: underline 3px #0d3964;
+    margin-left: 60px
 }
 .p1 {
     font-size: 20px;
     color: rgb(10, 10, 10);
     text-align: center;
-    width: 300px;
+    width: 360px;
+}
+
+.div1 {
+    border: 2px solid #0d3964;
+    border-radius: 20px;
+    width: 360px;
+    height: 230px;
+    padding: 3px;
+    transition: 0.5s;
+    margin-left: 20px;
+    display: inline-block;
+}
+.div1:hover {
+    transform: scale(1.1);
+}
+
+.div2 {
+    border: 2px solid #0d3964;
+    border-radius: 20px;
+    width: 360px;
+    height: 220px;
+    padding: 3px;
+    transition: 0.5s;
+    margin-left: 500px;
+    display: inline-block; 
+    transition: 0.5s;
+}
+.div2:hover {
+    transform: scale(1.1);
+    
 }
 
 nav {
@@ -50,6 +82,8 @@ nav {
     border-radius: 8px;
     font-size: 0;
     box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
 }
 nav a{
     font-size: 15px;
@@ -99,7 +133,7 @@ a:nth-child(4) {
 nav .start-home,a:nth-child(4):hover~.animation {
     width: 130px;
     left: 340px;
-    }
+}
 a:nth-child(5) {
     width: 120px;
 }
