@@ -71,7 +71,7 @@ h1 {
     font-size: 20px;
     color: rgb(10, 10, 10);
     text-align: center;
-    width: 400px;
+    width: 440px;
     margin-bottom: 10px;
 }
 
@@ -101,7 +101,7 @@ h1 {
     height: 220px;
     padding: 3px;
     transition: 0.5s;
-    margin-left: 530px;
+    margin-left: 540px;
     display: inline-block; 
     transition: 0.5s;
 }
