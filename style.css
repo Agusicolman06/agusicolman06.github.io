@@ -43,6 +43,18 @@ body {
     text-decoration: none;
 }
 
+.juegos {
+    color: rgb(2, 9, 43);
+    border: 3.5px solid #0d3964;
+    border-radius: 40px;
+    padding: 3px;
+    text-align: center;
+    font-size: 45px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 30px;
     text-decoration: underline 3px #0d3964;
