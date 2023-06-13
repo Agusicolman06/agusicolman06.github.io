@@ -3,6 +3,18 @@ html{
     margin-left: 10px;
 }
 
+.historia {
+    color: black;
+    border: 2px solid #0d3964;
+    border-radius: 30px;
+    padding: 3px;
+    margin-right: 1050px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
 .header {
     color: rgb(0, 0, 0);
     border: 3px solid rgb(46, 46, 46);
@@ -41,6 +53,14 @@ h1 {
     color: rgb(10, 10, 10);
     text-align: center;
     width: 360px;
+    margin-bottom: 10px;
+}
+.p2{
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    width: 400px;
+    margin-bottom: 10px;
 }
 
 .div1 {
@@ -64,14 +84,31 @@ h1 {
     height: 220px;
     padding: 3px;
     transition: 0.5s;
-    margin-left: 550px;
+    margin-left: 530px;
     display: inline-block; 
     transition: 0.5s;
 }
 .div2:hover {
     transform: scale(1.1);
-    
 }
+
+img {
+    margin-left: 12px;
+}
+.div3 {
+    border: 2px solid #0d3964;
+    border-radius: 10px;
+    width: 350px;
+    height: 730px;
+    padding: 3px;
+    transition: 0.5s;
+    margin-left: 20px;
+    display: inline-block;
+}
+.div3:hover {
+    transform: scale(1.1);
+}
+
 
 nav {
     position: relative;
