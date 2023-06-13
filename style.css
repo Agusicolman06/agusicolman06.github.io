@@ -76,6 +76,11 @@ h1 {
 .div1:hover {
     transform: scale(1.1);
 }
+.img1{
+    margin-left:60px;;
+    width:200px;
+}
+
 
 .div2 {
     border: 2px solid #0d3964;
@@ -90,6 +95,12 @@ h1 {
 }
 .div2:hover {
     transform: scale(1.1);
+}
+
+.img2 {
+    width: 220px;
+    margin-left: 60px;
+    margin-top: 10px;
 }
 
 img {
@@ -108,6 +119,7 @@ img {
 .div3:hover {
     transform: scale(1.1);
 }
+
 
 
 nav {
