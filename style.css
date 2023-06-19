@@ -138,12 +138,9 @@ img {
     width: 200px;
     border: 4px solid rgb(194, 192, 192);
     border-radius: 10px;
-    margin-left: none;
     margin-left: 1000px;
     transform: translateY(-550px);
 }
-
-
 
 nav {
     position: relative;
@@ -212,4 +209,4 @@ a:nth-child(5) {
 nav .start-home,a:nth-child(5):hover~.animation {
     width: 120px;
     left: 467px;
-    }
+}
