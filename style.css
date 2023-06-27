@@ -141,6 +141,11 @@ img {
     transform: translateY(-550px);
 }
 
+.div6 {
+    transform: translateY(-318px);
+    margin-left: 720px;
+}
+
 nav {
     position: relative;
     margin: 27px auto 0;
