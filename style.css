@@ -4,6 +4,16 @@ html{
 }
 
 
+.h2 {
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 30%;
+    margin-left: 50px;
+    margin-right: 1100px;
+    text-align: center;
+}
+
+
 .header {
     color: rgb(0, 0, 0);
     border: 3px solid rgb(46, 46, 46);
@@ -108,6 +118,10 @@ h1 {
     width: 220px;
     margin-left: 60px;
     margin-top: 10px;
+}
+
+.img3 {
+    margin-left: 80px;
 }
 
 img {
