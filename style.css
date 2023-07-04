@@ -178,6 +178,10 @@ img {
 .div3:hover {
     transform: scale(1.1);
 }
+#p {
+    color: rgb(112, 0, 0);
+    font-size: 16px;
+}
 .div4 {
     display: inline;
 }
