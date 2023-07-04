@@ -2,6 +2,18 @@ html{
     scroll-behavior: smooth;
     margin-left: 10px;
 }
+.container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 250px;
+    grid-gap: 30px;
+    padding: 20px 0;
+    transform: translateX(-40px);
+    margin-bottom: 190px;
+}
+
 /*container para historia*/
 .container2 {
     max-width: 1200px;
@@ -164,6 +176,7 @@ img {
     transition: 0.5s;
     margin-left: 20px;
     display: inline-block;
+    cursor: pointer;
 }
 .div3:hover {
     transform: scale(1.1);
