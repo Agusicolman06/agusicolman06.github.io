@@ -178,6 +178,20 @@ img {
 .div3:hover {
     transform: scale(1.1);
 }
+.div4 {
+    border: 2px solid #0d3964;
+    border-radius: 10px;
+    width: 350px;
+    height: 680px;
+    padding: 3px;
+    transition: 0.5s;
+    margin-left: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.div4:hover {
+    transform: scale(1.1);
+}
 #p {
     color: rgb(112, 0, 0);
     font-size: 16px;
