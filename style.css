@@ -168,8 +168,8 @@ img {
     border: 2px solid #0d3964;
     border-radius: 10px;
     width: 350px;
-    height: 645px;
-    padding: 3px;
+    height: 650px;
+    padding: 5px;
     transition: 0.5s;
     margin-left: 20px;
     display: inline-block;
@@ -183,7 +183,7 @@ img {
     border-radius: 10px;
     width: 350px;
     height: 680px;
-    padding: 3px;
+    padding: 5px;
     transition: 0.5s;
     margin-left: 20px;
     display: inline-block;
