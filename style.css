@@ -7,7 +7,7 @@ html{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 650px;
+    grid-template-rows: 690px;
     grid-gap: 30px;
     padding: 20px 0;
     margin-bottom: 190px;
@@ -168,7 +168,7 @@ img {
     border: 2px solid #0d3964;
     border-radius: 10px;
     width: 350px;
-    height: 630px;
+    height: 645px;
     padding: 3px;
     transition: 0.5s;
     margin-left: 20px;
