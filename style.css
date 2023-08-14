@@ -7,7 +7,7 @@ html{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 690px;
+    grid-template-rows: 700px;
     grid-gap: 30px;
     padding: 20px 0;
     margin-bottom: 190px;
@@ -195,6 +195,10 @@ img {
 #p {
     color: rgb(112, 0, 0);
     font-size: 16px;
+}
+#p1 {
+    font-size: 16;
+    padding: 0;
 }
 
 /*barra de navegacion*/
