@@ -167,8 +167,8 @@ img {
 .div3 {
     border: 2px solid #0d3964;
     border-radius: 10px;
-    width: 350px;
-    height: 650px;
+    width: 90%;
+    height: 65%;
     padding: 5px;
     transition: 0.5s;
     margin-left: 20px;

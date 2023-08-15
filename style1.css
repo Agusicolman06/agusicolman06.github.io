@@ -1,0 +1,15 @@
+.header {
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(46, 46, 46);
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 65px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+body {
+    min-height: 100vh;
+    background: url(fondo.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
