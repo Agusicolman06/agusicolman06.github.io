@@ -7,7 +7,7 @@ html{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 700px;
+    grid-template-rows: 500px;
     grid-gap: 30px;
     padding: 20px 0;
     margin-bottom: 190px;
@@ -167,8 +167,8 @@ img {
 .div3 {
     border: 2px solid #0d3964;
     border-radius: 10px;
-    width: 90%;
-    height: 65%;
+    width: 350px;
+    height: 455px;
     padding: 5px;
     transition: 0.5s;
     margin-left: 20px;
@@ -182,12 +182,15 @@ img {
     border: 2px solid #0d3964;
     border-radius: 10px;
     width: 350px;
-    height: 700px;
+    height: 465px;
     padding: 5px;
     transition: 0.5s;
     margin-left: 20px;
     display: inline-block;
     cursor: pointer;
+}
+.div4 img {
+    margin-top: 10px;
 }
 .div4:hover {
     transform: scale(1.1);
