@@ -12,6 +12,10 @@ html{
     padding: 20px 0;
     margin-bottom: 190px;
 }
+.contador{
+    list-style: none;
+    font-size: 30px;
+}
 
 /*container para historia*/
 .container2 {

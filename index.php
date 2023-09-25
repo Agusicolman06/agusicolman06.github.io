@@ -11,6 +11,31 @@
 <body>
     <header class="header">Assassin's Creed</header>
     <br>
+    <img src="image.png" alt="">
+    <?php
+                $servername = "localhost";
+                $username = "phpmyadmin";
+                $password = "RedesInformaticas";
+                $dbname = "db_colman";
+                $conexion = new mysqli($servername, $username, $password, $dbname);
+
+                $sql = "SELECT contador FROM visitas WHERE visitas.id = 1";
+                $resultado = mysqli_query($conexion, $sql);
+                $contador = mysqli_fetch_assoc($resultado)['contador'];
+                $contador = $contador + 1;
+
+                $fechavisita = date("y/m/d");
+                $sql = "UPDATE visitas SET contador = '$contador', fecha = '$fechavisita' WHERE visitas.id = 1";
+                
+
+                if (mysqli_query($conexion, $sql)) {
+                $success = "El ingreso ha sido satisfactorio";
+                } else {
+                echo "Error de ingreso: " . mysqli_error($conexion);
+                }
+                echo "<li class=\"contador\">$contador</li>";
+            
+            ?>
    <nav>
     <a href="#Inicio">Inicio</a>
     <a href="#Historia">Historia</a>
@@ -78,35 +103,26 @@
         <h1 class="juegos" id="Juegos">Juegos</h1>
     <div class="container3">
         <div class="div3">
-            <a href="paginajgos/AC1.html">
         <img src="paginajgos/AC1.jpg" alt="" width="330px">
-        </a>   
+        
         <p>Assassin's Creed 1</p>
         </div>
 
         <div class="div3">
-            <a href="paginajgos/AC2.html">
             <img src="paginajgos/AC2.jpg" alt="" width="320px">
-        </a>
         </div>
 
         <div class="div4">
-            <a href="paginajgos/AC3.html">
             <img src="paginajgos/AC3.jpg" alt="" width="330px">
-        </a>
         </div>
-
         <div class="div4">
             <img src="paginajgos/AC4.jpg" alt="" width="320px">
-            <p>Assassin's Creed 4 (Black Flag), comienza en 1715, cuando los piratas establecieron una república sin ley en el Caribe y dominaron la tierra y el mar. En este juego protagonizaremos al corsario Edward James Kenway, un pirata gales que en una pelea maritima termina explotando su barco y al llegar a una isla cercana se encontraria con el asesino Duncan Walpole que despues de un duelo terminaria tomando su traje y empezaria su aventura como un pirata asesino saqueando fuertes y haciendo frente ante el gobernador español Woode Rogers</p>
         </div>
         <div class="div3">
             <img src="paginajgos/ACR.jpg" alt="" width="330px">
-            <p id="p">Assassin's Creed Rogue, este juego esta basado en la Guerra de los Siete Años (1756-1763), nosotros empezariamos siendo un asesino con Shay Patrick Cormac este estaria ya en el credo, y en este juego Shay seria una asesino que renunciaria a sus mandatos y traicionaria al credo uniendose al los templarios. Shay como un templario sabiendo como funcionan los asesinos iria a matar a cada 1 que estubo con el y le perdonaria la vida al lider de este. <br> (Spoiler) Al final terminaria yendo a Francia matando a uno de los ultimos asesinos que le quedaban por matar.</p>
         </div>
         <div class="div4">
             <img src="paginajgos/ACU.jpg" alt="" width="320px" >
-            <p>Assassin's Creed Unity, en este juego jugaremos en la epoca de la revolucion francesa (siglo XVIII), empezamos la historia como un niño que por irse de aventuras con una niña, al volver encontraria a su padre asesinado. Despues del asesinato de su padre iria a vivir con el señor De La Serre y con la niña Elise. Pasarian los años hasta que este niño llamado Arno Dorian tendria al rededor de 24 años y este despues que sea inculpado por el asesinato de De La Serre iria preso y conoceria a un seguidor del credo de asesinos, este le enseñaria las tacticas y formas de un asesino asi aprendiendo y despues vengandose de quienes asesinaron a su padre y a De La Serre... </p>
         </div>
     </div>
         
