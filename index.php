@@ -9,9 +9,8 @@
     <link rel="icon" href="asasinicono.ico">
 </head>
 <body>
-    <header class="header">Assassin's Creed</header>
+    <header class="header">Assassin's Creed
     <br>
-    <img src="image.png" alt="">
     <?php
                 $servername = "localhost";
                 $username = "phpmyadmin";
@@ -36,6 +35,7 @@
                 echo "<li class=\"contador\">$contador</li>";
             
             ?>
+            </header>
    <nav>
     <a href="#Inicio">Inicio</a>
     <a href="#Historia">Historia</a>
@@ -107,7 +107,6 @@
         
         <p>Assassin's Creed 1</p>
         </div>
-
         <div class="div3">
             <img src="paginajgos/AC2.jpg" alt="" width="320px">
         </div>
@@ -130,7 +129,6 @@
         <h1 class="juegos" id="Videos">Videos</h1>
         <div class="container">
         <div class="box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/uNOnq5YaNxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="box">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/NPZBAdRguK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

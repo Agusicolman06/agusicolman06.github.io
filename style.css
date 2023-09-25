@@ -15,6 +15,7 @@ html{
 .contador{
     list-style: none;
     font-size: 30px;
+    text-align: center;
 }
 
 /*container para historia*/
