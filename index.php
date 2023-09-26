@@ -11,6 +11,7 @@
 <body>
     <header class="header">Assassin's Creed
     <br>
+    <a href="login.php">Login</a>
     <?php
                 $servername = "localhost";
                 $username = "phpmyadmin";
@@ -36,7 +37,10 @@
             
             ?>
             </header>
-   <nav>
+                
+   
+            
+     <nav>
     <a href="#Inicio">Inicio</a>
     <a href="#Historia">Historia</a>
     <a href="#Imagenes">Imagenes</a>
@@ -103,25 +107,25 @@
         <h1 class="juegos" id="Juegos">Juegos</h1>
     <div class="container3">
         <div class="div3">
-        <img src="paginajgos/AC1.jpg" alt="" width="330px">
+        <img src="partejuegos/AC1.jpg" alt="" width="330px">
         
         <p>Assassin's Creed 1</p>
         </div>
         <div class="div3">
-            <img src="paginajgos/AC2.jpg" alt="" width="320px">
+            <img src="partejuegos/AC2.jpg" alt="" width="320px">
         </div>
 
         <div class="div4">
-            <img src="paginajgos/AC3.jpg" alt="" width="330px">
+            <img src="partejuegos/AC3.jpg" alt="" width="330px">
         </div>
         <div class="div4">
-            <img src="paginajgos/AC4.jpg" alt="" width="320px">
+            <img src="partejuegos/AC4.jpg" alt="" width="320px">
         </div>
         <div class="div3">
-            <img src="paginajgos/ACR.jpg" alt="" width="330px">
+            <img src="partejuegos/ACR.jpg" alt="" width="330px">
         </div>
         <div class="div4">
-            <img src="paginajgos/ACU.jpg" alt="" width="320px" >
+            <img src="partejuegos/ACU.jpg" alt="" width="320px" >
         </div>
     </div>
         

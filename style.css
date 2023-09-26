@@ -77,6 +77,11 @@ html{
     margin-left: 400px;
     margin-right: 400px;
 }
+
+.header a {
+    font-size: 30px;
+    color: black;
+}
 /*fondo*/
 body {
     min-height: 100vh;
